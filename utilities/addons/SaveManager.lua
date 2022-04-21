@@ -1,7 +1,7 @@
 local httpService = game:GetService('HttpService')
 
 local SaveManager = {} do
-	SaveManager.Folder = 'fraudsets'
+	SaveManager.Folder = 'fraudsaves'
 	SaveManager.Ignore = {}
 	SaveManager.Parser = {
 		Toggle = {
